@@ -304,6 +304,19 @@ a.card-inner {
     border-color: var(--color-main-200);
 }
 
+.card-tag {
+    display: inline-flex;
+    font-size: 1rem;
+    border: 1px solid var(--border);
+    margin-bottom: 2rem;
+    border-radius: 5rem;
+    padding: .5rem 1rem;
+}
+
+.card-logo {
+    display: flex;
+}
+
 .card-title {
     display: flex;
     font-size: 2.5rem;
